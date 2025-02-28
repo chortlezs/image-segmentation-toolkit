@@ -1,0 +1,24 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# SAM模型文件（体积较大，建议用户自行下载）
+*.pth
+
+# 下载的图片和生成的遮罩
+downloaded_images/
+downloaded_images */
+
+# IDE配置文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
